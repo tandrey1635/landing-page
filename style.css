@@ -40,7 +40,7 @@ img {
 .header {
   padding-top: 34px;
   padding-bottom: 93px;
-  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  background: linear-gradient(0deg, #ebf3fb 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 .header__content {
   display: flex;
@@ -76,7 +76,7 @@ img {
   font-size: 64px;
   line-height: 74px;
   letter-spacing: 0.04em;
-  color: #1F3F68;
+  color: #1f3f68;
 }
 .header__text {
   width: 425px;
@@ -84,11 +84,11 @@ img {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #1F3F68;
+  color: #1f3f68;
   opacity: 0.6;
 }
 .header__link {
-  background: #5A98D0;
+  background: #5a98d0;
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
   border-radius: 10px;
   text-decoration: none;
@@ -96,7 +96,7 @@ img {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 15px 50px;
   margin-top: 71px;
   display: inline-block;
@@ -127,7 +127,7 @@ img {
   justify-content: center;
   width: 359px;
   min-height: 480px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
 }
@@ -143,7 +143,7 @@ img {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.05em;
-  color: #1F3F68;
+  color: #1f3f68;
   width: 283px;
 }
 .what-we-do__text {
@@ -152,7 +152,7 @@ img {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #1F3F68;
+  color: #1f3f68;
   opacity: 0.6;
 }
 .what-we-do__block-link {
@@ -165,7 +165,7 @@ img {
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.05em;
-  color: #5A98D0;
+  color: #5a98d0;
   text-decoration: none;
 }
 .what-we-do__link::after {
@@ -226,7 +226,7 @@ img {
   line-height: 46px;
   text-align: right;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .project__info {
   position: absolute;
@@ -236,7 +236,7 @@ img {
   line-height: 46px;
   text-align: right;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer {
@@ -335,7 +335,7 @@ img {
   line-height: 74px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .header__contacts-bottom-text {
   width: 780px;
@@ -368,7 +368,7 @@ img {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.04em;
-  color: #1F3F68;
+  color: #1f3f68;
   text-transform: uppercase;
 }
 .content__info-menu, .content__email-menu {
@@ -379,7 +379,7 @@ img {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.04em;
-  color: #1F3F68;
+  color: #1f3f68;
   opacity: 0.6;
 }
 .content__descriptions-text {
@@ -399,14 +399,14 @@ img {
 .content__right-form {
   box-sizing: border-box;
   padding: 56px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
 }
 .content__right-input {
   width: 428px;
   height: 72px;
-  border: 1px solid #356EAD;
+  border: 1px solid #356ead;
   box-sizing: border-box;
   border-radius: 10px;
   padding-left: 42px;
@@ -414,12 +414,20 @@ img {
   outline: none;
   color: #1F3F68;
 }
-.content__right:placeholder {
+.content__right::-moz-placeholder {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.04em;
-  color: #1F3F68;
+  color: #1f3f68;
+  opacity: 0.2;
+}
+.content__right::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
   opacity: 0.2;
 }
 .content__right label {
@@ -429,7 +437,7 @@ img {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.04em;
-  color: #1F3F68;
+  color: #1f3f68;
   opacity: 0.8;
 }
 .content__right .textarea {
@@ -442,7 +450,7 @@ img {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.04em;
-  color: #1F3F68;
+  color: #1f3f68;
   text-transform: uppercase;
 }
 .content__info-list, .content__email-list {
@@ -468,8 +476,8 @@ img {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
-  background: #5A98D0;
+  color: #ffffff;
+  background: #5a98d0;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
   padding: 23px 0;
