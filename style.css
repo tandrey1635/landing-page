@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   box-sizing: border-box;
@@ -49,7 +49,7 @@ img {
 .header__bg {
   width: 555px;
   height: 480px;
-  background: url(img/header-bg.png) no-repeat;
+  background: url("img/header-bg.png") no-repeat;
   margin-top: 100px;
 }
 .header__top {
@@ -96,7 +96,7 @@ img {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   padding: 15px 50px;
   margin-top: 71px;
   display: inline-block;
@@ -112,7 +112,7 @@ img {
   line-height: 46px;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: #000;
 }
 .what-we-do__content {
   display: flex;
@@ -127,7 +127,7 @@ img {
   justify-content: center;
   width: 359px;
   min-height: 480px;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
 }
@@ -189,14 +189,14 @@ img {
   line-height: 46px;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: #000;
 }
 .project__text {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #222222;
+  color: #222;
   margin: 0 auto;
   padding-top: 32px;
 }
@@ -226,7 +226,7 @@ img {
   line-height: 46px;
   text-align: right;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #fff;
 }
 .project__info {
   position: absolute;
@@ -236,7 +236,7 @@ img {
   line-height: 46px;
   text-align: right;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .footer {
@@ -257,7 +257,7 @@ img {
   font-size: 36px;
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer__text {
   padding-top: 32px;
@@ -265,7 +265,7 @@ img {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #fff;
   opacity: 0.6;
 }
 .footer__btn {
@@ -273,9 +273,9 @@ img {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
-  background: #5A98D0;
+  background: #5a98d0;
   padding: 15px 80px;
   display: inline-block;
 }
@@ -292,7 +292,7 @@ img {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer .list__one:before {
   content: "1.";
@@ -308,14 +308,14 @@ img {
 }
 .footer__link {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer__copyright {
   padding-top: 64px;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #fff;
   opacity: 0.4;
 }
 
@@ -325,7 +325,7 @@ img {
 }
 
 .header__contacts-bottom {
-  background: url(img/contacts/header-bg_contacts.jpg) no-repeat;
+  background: url("img/contacts/header-bg_contacts.jpg") no-repeat;
   background-size: cover;
   padding: 51px 0;
 }
@@ -335,7 +335,7 @@ img {
   line-height: 74px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
 }
 .header__contacts-bottom-text {
   width: 780px;
@@ -399,7 +399,7 @@ img {
 .content__right-form {
   box-sizing: border-box;
   padding: 56px;
-  background: #ffffff;
+  background: #fff;
   box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
 }
@@ -412,7 +412,7 @@ img {
   padding-left: 42px;
   padding-right: 50px;
   outline: none;
-  color: #1F3F68;
+  color: #1f3f68;
 }
 .content__right::-moz-placeholder {
   font-weight: 300;
@@ -458,15 +458,15 @@ img {
   display: flex;
 }
 .content__info-list::before {
-  content: url(img/contacts/phone.svg);
+  content: url("img/contacts/phone.svg");
   margin-right: 16px;
 }
 .content__email-list::before {
-  content: url(img/contacts/web.svg);
+  content: url("img/contacts/web.svg");
   margin-right: 16px;
 }
 .content .email-list-email::before {
-  content: url(img/contacts/email.svg);
+  content: url("img/contacts/email.svg");
   margin-right: 16px;
 }
 .content button {
@@ -476,7 +476,7 @@ img {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   background: #5a98d0;
   box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
